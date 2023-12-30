@@ -71,7 +71,7 @@ public class ParkingLot {
     }
 
     public boolean getFullStatus() {
-        return cnt == parkingLotCapacity;
+        return cnt == parkingLotCapacity;// checks if parking lot is full or not
     }
 
     public Car[] getLot() {
