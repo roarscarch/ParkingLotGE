@@ -1,3 +1,9 @@
+/*
+This is car class which will contain license number 
+carColor and attendant name
+
+
+*/
 package org.example;
 import java.time.LocalTime;
 
