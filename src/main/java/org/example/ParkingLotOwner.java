@@ -28,7 +28,7 @@ public class ParkingLotOwner {
     }
 
     public void addToAccount(Car car, double fare) {
-        account.put(car, account.getOrDefault(car, 0.0) + fare);
+        account.put(car, account.getOrDefault(car, 0.0) + fare);// get or default method
     }
 
     public Map<Car, Double> getAccount() {
