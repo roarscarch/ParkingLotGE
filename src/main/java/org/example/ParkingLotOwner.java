@@ -35,7 +35,7 @@ public class ParkingLotOwner {
         return account;
     }
 
-    public List<ParkingLot> giveDataToPolice() {
+    public List<ParkingLot> giveDataToPolice() {// to give data tp police
         return new ArrayList<>(lots);
     }
 }
