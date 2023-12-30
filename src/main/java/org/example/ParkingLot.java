@@ -43,7 +43,7 @@ public class ParkingLot {
     private int findCarIndex(Car car) throws CarNotPresentException {
         for (int i = 0; i < parkingLotCapacity; i++) {
             if (lot[i] == car) {
-                return i;
+                return i;// if car is present return its index
             }
         }
         throw new CarNotPresentException("Car not present in lot!");
