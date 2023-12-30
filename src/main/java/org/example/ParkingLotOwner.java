@@ -24,7 +24,7 @@ public class ParkingLotOwner {
 
     public void addLot(ParkingLot parkingLot) {
         lots.add(parkingLot);
-        parkingAttendants.forEach(attendant -> attendant.allotAttendantLots(parkingLot));
+        parkingAttendants.forEach(attendant -> attendant.allotAttendantLots(parkingLot));// awesome method from java api
     }
 
     public void addToAccount(Car car, double fare) {
