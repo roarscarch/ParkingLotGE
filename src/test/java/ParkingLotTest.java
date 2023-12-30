@@ -25,7 +25,7 @@ public class ParkingLotTest {
     Car car2 = new Car(834003, "White", "CarCompany2", false, "Small");
     Car car3 = new Car(3152, "Pink", "BMW", false, "Small");
     Car car4 = new Car(2378, "White", "Tata", true, "Small");
-    Car car5 = new Car(165, "Yellow", "Suzuki", false, "Large");
+    Car car5 = new Car(1285, "Yellow", "WagonR", false, "Large");
     Car car6 = new Car(87656, "Red", "Mazerati", false, "Large");
     Car car7 = new Car(45545, "Green", "Porsche", false, "Small");
 
