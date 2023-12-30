@@ -6,9 +6,9 @@ import org.example.Exceptions.ParkinglotFullException;
 import java.time.Duration;
 import java.time.LocalTime;
 import java.util.Arrays;
-
+// parking lot class
 public class ParkingLot {
-    private int parkingLotCapacity;
+    private int parkingLotCapacity;// it shows the total capacity of parking lot
     private Car[] lot;
     private int cnt;
 
@@ -19,7 +19,7 @@ public class ParkingLot {
     }
 
     private void occupyParkingSpace(Car car, String attendantName) {
-        LocalTime inTime = LocalTime.now();
+        LocalTime inTime = LocalTime.now();// shows local time
         car.setInTime(inTime);
         car.setAttendantName(attendantName);
 
