@@ -121,6 +121,4 @@ public class PoliceDepartment {
         }
         return ans;
     }
-
-
 }
