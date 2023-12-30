@@ -33,7 +33,7 @@ public class ParkingLot {
     }
 
     public void parkCar(Car car, String attendantName) throws ParkinglotFullException {
-        if (cnt == parkingLotCapacity) {
+        if (cnt == parkingLotCapacity) {// whwn count of cars is same as capacity therefore no capacity
             throw new ParkinglotFullException("Parking lot is full!");
         }
 
