@@ -1,4 +1,9 @@
 package org.example;
+/*
+what things will parking attendant have?
+name , id , and a list of parkinglot
+
+*/
 
 import org.example.Exceptions.CarNotPresentException;
 import org.example.Exceptions.ParkinglotFullException;
