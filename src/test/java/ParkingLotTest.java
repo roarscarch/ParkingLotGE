@@ -30,7 +30,7 @@ public class ParkingLotTest {
     Car car7 = new Car(45545, "Green", "Porsche", false, "Small");
 
     // Setting up initial conditions for tests
-    public void setUp1() {
+    public void setUp1() {// these functions are made so that we dont have to write the code again and again
         parkingLotOwner1.addAttendant(parkingAttendant1);
         parkingLotOwner1.addLot(parkingLot1);
         parkingLotOwner1.addLot(parkingLot2);
