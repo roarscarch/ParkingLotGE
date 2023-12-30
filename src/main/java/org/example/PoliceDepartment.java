@@ -112,9 +112,9 @@ public class PoliceDepartment {
         });
     }
 
-    public List<String> infoOfCarsInLot(ParkingLot p) {
+    public List<String> infoOfCarsInLot(ParkingLot parkinglot) {
         List<String> ans = new ArrayList<>();
-        Car[] currLot = p.getLot();
+        Car[] currLot = parkinglot.getLot();
         for (int j = 0; j < currLot.length; j++) {
             ans.add(String.format("Position:- %d, Car number:- %s, Car colour:- %s, Car company:- %s",
                     j, currLot[j].getLicenseNumber(), currLot[j].getCarColor(), currLot[j].getCarCompany()));
