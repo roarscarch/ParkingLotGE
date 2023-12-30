@@ -51,7 +51,7 @@ public class PoliceDepartment {
     }
 
     public List<String> locationOfWhiteCar() {
-        return getInfoByColor("White");
+        return getInfoByColor("White");// in question it was asked about white and blue cars
     }
 
     public List<String> infoOfBlueCars() {
