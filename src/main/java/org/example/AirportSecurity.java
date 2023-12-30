@@ -1,4 +1,5 @@
 package org.example;
+// airport security class , it contains staff name and staff id 
 
 public class AirportSecurity {
     private String staffName;
