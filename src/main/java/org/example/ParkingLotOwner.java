@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class ParkingLotOwner {
     private String lotOwnerName;
-    private List<ParkingLot> lots;
+    private List<ParkingLot> lots;// list of parking lot
     private List<ParkingAttendant> parkingAttendants;
     private Map<Car, Double> account;
 
