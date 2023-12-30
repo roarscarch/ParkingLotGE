@@ -44,7 +44,7 @@ public class ParkingLotTest {
             parkingAttendant1.parkCar(car3);
             parkingAttendant1.parkCar(car4);
         } catch (ParkinglotFullException e) {
-            System.out.println(e.getMessage());
+            System.out.println("error aa gya bhai. galti se");
         }
     }
 
