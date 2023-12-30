@@ -70,6 +70,7 @@ public class ParkingLotTest {
         } catch (CarNotPresentException | ParkinglotFullException e) {
             fail("Exception was not expected here");
         }
+        
 
         // Unparking unparked car
         try {
