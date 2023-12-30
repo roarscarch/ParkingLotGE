@@ -5,7 +5,7 @@ carColor and attendant name
 
 */
 package org.example;
-import java.time.LocalTime;
+import java.time.LocalTime;// for intime  and outime , so that we can calculate the total time
 
 public class Car {
     private int licenseNumber;
